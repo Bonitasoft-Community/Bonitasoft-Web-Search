@@ -1,0 +1,16 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/"> 
+    <ShortName>Bonita Search</ShortName>
+	<LongName>Bonitasoft Community Search</LongName>
+    <InputEncoding>UTF-8</InputEncoding>
+	<AdultContent>false</AdultContent>
+	<Developer>Paul A.</Developer>
+    <Contact>community@bonitasoft.com</Contact>
+    <Description>Search in Bonitasoft websites for even more information on Bonita BPM</Description>
+    <Tags>books</Tags>
+    <Attribution>Search in Bonitasoft websites for even more information on Bonita BPM</Attribution>
+    <SyndicationRight>open</SyndicationRight>
+    <Image width="16" height="16">http://community.bonitasoft.com/sites/community/files/bonita-32_0.png</Image>
+    <Url type="text/html" method="GET" template="http://community.bonitasoft.com/search/global/{searchTerms}"/>
+    <Url type="application/x-suggestions+json" method="GET" template="http://suggestqueries.google.com/complete/search?output=firefox&amp;client=firefox&amp;hl=es-es&amp;q={searchTerms}"/>
+    <moz:SearchForm>http://community.bonitasoft.com/search/global/</moz:SearchForm> 
+    </OpenSearchDescription>
